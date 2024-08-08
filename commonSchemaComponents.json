@@ -265,7 +265,7 @@
                   "type": "string"
                 },
                 "extendedTextMessageData": {
-                  "$ref": "#/properties/commonSchemaComponents/properties/messageData/properties/extendedTextMessageData"
+                  "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/messageData/properties/extendedTextMessageData"
                 }
               },
               "required": ["typeMessage", "extendedTextMessageData"],
@@ -301,7 +301,7 @@
                   "type": "string"
                 },
                 "fileMessageData": {
-                  "$ref": "#/properties/commonSchemaComponents/properties/messageData/properties/fileMessageData"
+                  "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/messageData/properties/fileMessageData"
                 }
               },
               "required": ["typeMessage", "fileMessageData"],
@@ -316,7 +316,7 @@
                   "type": "string"
                 },
                 "contactMessageData": {
-                  "$ref": "#/properties/commonSchemaComponents/properties/messageData/properties/contactMessageData"
+                  "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/messageData/properties/contactMessageData"
                 }
               },
               "required": ["typeMessage", "contactMessageData"],
@@ -331,7 +331,7 @@
                   "type": "string"
                 },
                 "pollMessageData": {
-                  "$ref": "#/properties/commonSchemaComponents/properties/messageData/properties/pollMessageData"
+                  "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/messageData/properties/pollMessageData"
                 }
               },
               "required": ["typeMessage", "pollMessageData"],
@@ -346,7 +346,7 @@
                   "type": "string"
                 },
                 "locationMessageData": {
-                  "$ref": "#/properties/commonSchemaComponents/properties/messageData/properties/locationMessageData"
+                  "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/messageData/properties/locationMessageData"
                 }
               },
               "required": ["typeMessage", "locationMessageData"],

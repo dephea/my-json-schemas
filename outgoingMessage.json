@@ -11,7 +11,7 @@
           "type": "string"
         },
         "instanceData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/instanceData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/instanceData"
         },
         "timestamp": {
           "type": "integer"
@@ -20,10 +20,10 @@
           "type": "string"
         },
         "senderData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/senderData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/senderData"
         },
         "messageData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/messageData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/messageData"
         }
       },
       "required": [
@@ -46,7 +46,7 @@
           "enum": ["outgoingAPIMessageReceived"]
         },
         "instanceData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/instanceData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/instanceData"
         },
         "timestamp": {
           "type": "integer"
@@ -55,10 +55,10 @@
           "type": "string"
         },
         "senderData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/senderData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/senderData"
         },
         "messageData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/messageData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/messageData"
         }
       },
       "required": [
@@ -83,7 +83,7 @@
           "type": "string"
         },
         "instanceData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/instanceData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/instanceData"
         },
         "timestamp": {
           "type": "integer"

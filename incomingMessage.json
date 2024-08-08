@@ -21,13 +21,13 @@
           "type": "string"
         },
         "messageData": {
-          "$ref": "./commonSchemaComponents.json#/properties/commonSchemaComponents/properties/messageData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/messageData"
         },
         "instanceData": {
-          "$ref": "./commonSchemaComponents.json#/properties/commonSchemaComponents/properties/instanceData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/instanceData"
         },
         "senderData": {
-          "$ref": "./commonSchemaComponents.json#/properties/commonSchemaComponents/properties/senderData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/senderData"
         }
       },
       "required": [

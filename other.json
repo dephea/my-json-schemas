@@ -11,7 +11,7 @@
           "type": "string"
         },
         "instanceData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/instanceData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/instanceData"
         },
         "timestamp": {
           "type": "integer"
@@ -32,7 +32,7 @@
           "type": "string"
         },
         "instanceData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/instanceData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/instanceData"
         },
         "timestamp": {
           "type": "integer"
@@ -63,7 +63,7 @@
           "type": "string"
         },
         "instanceData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/instanceData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/instanceData"
         },
         "status": {
           "type": "string"
@@ -97,7 +97,7 @@
           "type": "string"
         },
         "instanceData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/instanceData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/instanceData"
         },
         "timestamp": {
           "type": "integer"
@@ -123,7 +123,7 @@
           "type": "string"
         },
         "instanceData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/instanceData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/instanceData"
         },
         "timestamp": {
           "type": "integer"
@@ -153,10 +153,10 @@
           "type": "string"
         },
         "instanceData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/instanceData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/instanceData"
         },
         "quotaData": {
-          "$ref": "#/properties/commonSchemaComponents/properties/quotaData"
+          "$ref": "https://raw.githubusercontent.com/dephea/my-json-schemas/main/commonSchemaComponents.json#/properties/commonSchemaComponents/properties/quotaData"
         }
       },
       "required": ["typeWebhook", "instanceData", "quotaData"],
