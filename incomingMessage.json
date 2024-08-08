@@ -1,10 +1,10 @@
 {
   "$id": "schemas",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
     "incomingMessageReceived": {
-      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$schema": "http://json-schema.org/draft-04/schema#",
       "type": "object",
       "properties": {
         "additions": {

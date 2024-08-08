@@ -1,10 +1,10 @@
 {
   "$id": "schemas",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
     "stateInstanceChanged": {
-      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$schema": "http://json-schema.org/draft-04/schema#",
       "type": "object",
       "properties": {
         "typeWebhook": {
@@ -25,7 +25,7 @@
     },
 
     "deviceInfo": {
-      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$schema": "http://json-schema.org/draft-04/schema#",
       "type": "object",
       "properties": {
         "typeWebhook": {
@@ -56,7 +56,7 @@
     },
 
     "incomingCall": {
-      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$schema": "http://json-schema.org/draft-04/schema#",
       "type": "object",
       "properties": {
         "typeWebhook": {
@@ -90,7 +90,7 @@
     },
 
     "statusInstanceChanged": {
-      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$schema": "http://json-schema.org/draft-04/schema#",
       "type": "object",
       "properties": {
         "typeWebhook": {
@@ -116,7 +116,7 @@
     },
 
     "incomingBlock": {
-      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$schema": "http://json-schema.org/draft-04/schema#",
       "type": "object",
       "properties": {
         "typeWebhook": {
@@ -146,7 +146,7 @@
     },
 
     "quotaExceeded": {
-      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$schema": "http://json-schema.org/draft-04/schema#",
       "type": "object",
       "properties": {
         "typeWebhook": {

@@ -1,10 +1,10 @@
 {
   "$id": "schemas",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
     "outgoingMessageReceived": {
-      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$schema": "http://json-schema.org/draft-04/schema#",
       "type": "object",
       "properties": {
         "typeWebhook": {
@@ -38,7 +38,7 @@
     },
 
     "outgoingAPIMessageReceived": {
-      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$schema": "http://json-schema.org/draft-04/schema#",
       "type": "object",
       "properties": {
         "typeWebhook": {
@@ -73,7 +73,7 @@
     },
 
     "outgoingMessageStatus": {
-      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$schema": "http://json-schema.org/draft-04/schema#",
       "type": "object",
       "properties": {
         "typeWebhook": {
